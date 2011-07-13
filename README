@@ -1,0 +1,7 @@
+TO INSTALL
+1. Create an SQL database for use with logbook.
+2. In /config.php:
+    A. Set your timezone.
+    B. Replace the SQL credentials with your own.
+3. Run /install.php
+4. Delete /install.php

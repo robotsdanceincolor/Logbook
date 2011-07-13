@@ -1,0 +1,59 @@
+body {
+    font-family: sans-serif;
+    font-size: 1.0em;
+}
+
+a { color: red; }
+h1 a {
+    color: #000;
+    text-decoration: none;
+}
+
+p label {
+    float: left;
+    font-weight: bold;
+    width: 127px;
+}
+
+input[type="text"],textarea {
+    border: 1px solid #000;
+    padding: 4px;
+}
+
+td.even {}
+td.odd { background-color: #EEE; }
+
+#container {
+    margin: 0px auto;
+    width: 480px;
+}
+
+#header {
+    margin-bottom: 16px;
+}
+
+#footer {
+    font-size: 12px;
+    margin-top: 16px;
+    text-align: center;
+}
+
+table#cal {
+}
+    #cal tr.head {
+        font-size: 1.2em;
+        text-align: center;
+    }
+    #cal tr#days {
+        background-color: lightgreen;
+        font-style: italic;
+        text-align: center;
+    }
+    #cal td.date {
+        border: 1px solid #000;
+        height: 48px;
+        padding: 4px;
+        width: 48px;
+    }
+    #cal td.entry,#cal td.hover { background-color: lightblue; }
+    #cal td.hover { cursor: pointer; }
